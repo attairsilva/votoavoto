@@ -1,0 +1,42 @@
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: votoavoto_web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public_html:/var/www/html
+    depends_on:
+      - db
+    links:
+      - db
+  db:
+    image: mysql:8.0
+    container_name: votoavoto_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: meuvoto
+      MYSQL_USER: umeuvoto
+      MYSQL_PASSWORD: cref2003
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+ 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: votoavoto_phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: umeuvoto
+      PMA_PASSWORD: cref2003
+      UPLOAD_LIMIT: 64M
+    ports:
+      - "8081:80"  # Porta alterada
+    depends_on:
+      - db
+   
+
