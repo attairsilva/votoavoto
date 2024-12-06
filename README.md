@@ -6,9 +6,9 @@ Este pequeno sisteminha web foi desenvolvido em 2018 para atender à necessidade
 
 Antes de sua operação, é necessário inserir no sistema uma lista de registros. Trata-se de uma planilha CSV e deve conter colunas ordenadas da seguinte forma: Número de Inscrição, Nome, Logradouro, Número do Logradouro, Complemento do Logradouro, Bairro do Logradouro, Município, Estado e CEP. É fundamental atentar para situações como exitência de caracteres especiais e registros duplicados na lista de profissionais, pois a duplicação podem caucar problemas durante a leitura.
 
-Utilizando esta mesma relação, é preciso gerar um código de barras utilizando o campo 'numero de inscrição' desta planilha. Este código de barras é encaminhado ao eleitor em etapas de antecedem a apuração, ele é fixado em um envelope pardo sem identificação.
+Utilizando esta mesma relação, é preciso gerar um código de barras utilizando o campo 'numero de inscrição' desta planilha. Este código de barras é encaminhado ao eleitor em etapas que antecedem a apuração,fixado em envelope pardo sem identificação.
 
-No momento da apuração, antes da sessão de abertura dos envelopes e contagem dos votos, o mesmos passam pelo sistema, com o uso de uma pistola leitora de codigo de barras, que confere se o codigo encontra-se no banco de dados e registra automaticamente como verdadeiro. 
+Antes da sessão de recebimento e abertura dos envelopes e contagem dos votos, o mesmos passa pelo leitor do sistema. Com o uso de uma pistola leitora de codigo de barras, é realizada a conferencia se o codigo encontra-se no banco de dados e registra automaticamente como verdadeiro. 
 
 O perfil administrador é o único habilitado para inserir a relação, emitir relatórios, cadastrar usuários e etc.
 
