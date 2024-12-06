@@ -1,6 +1,20 @@
 ## 🚀 VOTO A VOTO
 
-Este pequeno sisteminha web foi desenvolvido em 2018 para atender à necessidade pontual de um Conselho de Classe Profissional para agilizar o processo de recebimento e confirmação de envelopes contendo cédulas de votação.
+### Resumo
+
+Este repositório contém o projeto "Voto a Voto", sistema para a realização de confirmação de recebimento de votos de uma eleição por correspondência. O objetivo é fornecer uma solução eficiente, segura e transparente para o gerenciamento de votos, aplicável a diferentes contextos, como organizações, eventos ou comunidades.
+
+**Principais características:**
+
+- Sistema de cadastro de participantes.
+- Registro e gerenciamento de candidatos.
+- Ata de apuração
+
+Contribuições e sugestões são bem-vindas!
+
+### Integra
+
+Desenvolvido em 2018 buscou atender à necessidade pontual de um Conselho de Classe Profissional para agilizar o processo de recebimento e confirmação de envelopes contendo cédulas de votação.
 
 É importante ressaltar que o sistema não é utilizado para a contagem de votos, mas sim para certificar o recebimento de um envelope eleitoral. Ele é apenas um dos passos de um macroprocesso.
 
