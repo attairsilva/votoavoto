@@ -80,7 +80,7 @@ Senha: admin
 
 2. **PhpMyAdmin:** 
 
-Host: http://localhost:8081/votoavot
+Host: http://localhost:8081
 
 ### 🐳 Gerenciando o Docker
 
