@@ -42,6 +42,14 @@ Siga este guia para instalar e executar o projeto em sua máquina.
 
 1. **Navegue até o diretório raiz do projeto:** `C:\caminho do projeto` no PowerShell.
 
+1. **Criar a pasta mysql_data dentro da pasta raiz:** `C:\caminho do projeto` 
+
+    ```powershell
+     mkdir mysql_data
+
+Este será o local onde serão criados os arquivos do banco de dados padrão.
+
+
 2. **Execute o comando:**
    ```powershell
    docker-compose up --build --force-recreate
