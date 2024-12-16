@@ -1,5 +1,7 @@
 # Ignorar arquivos de configuração local
 ini/*.ini
+#mysql_data
+mysql_data
 
 
 
